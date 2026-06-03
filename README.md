@@ -42,7 +42,3 @@ for msg in fetch_messages(unseen_only=False):
 ```
 
 `fetch_messages` yields [`MailMessage`](https://github.com/ikvk/imap_tools) objects directly from imap-tools, so all their attributes (`msg.from_`, `msg.to`, `msg.html`, …) are available.
-
-## License
-
-MIT © 2026 José Morell
