@@ -7,7 +7,7 @@ name = "mail-ingest"
 version = "0.1.0"
 description = "Fetch messages and save PDF attachments from an IMAP mailbox."
 readme = "README.md"
-authors = [{ name = "José Morell" }]
+authors = [{ name = "Jose Morell" }]
 license = { text = "MIT" }
 requires-python = ">=3.10"
 dependencies = [
@@ -19,4 +19,4 @@ dependencies = [
 dev = ["pytest"]
 
 [tool.setuptools.packages.find]
-include = ["mail_ingest*"]
+where = ["src"]
